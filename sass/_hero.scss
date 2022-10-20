@@ -25,8 +25,6 @@
 }
 
 .hero-section__title {
-  color: $white-color;
-
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -37,13 +35,11 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  color: $white-color;
 }
 
 .hero-section__button {
-  color: $white-color;
-  background: #2196f3;
-  cursor: pointer;
-
   min-width: 216px;
   border: none;
   border-radius: 4px;
@@ -55,6 +51,10 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
+  color: $white-color;
+  background: $accent-color;
+  cursor: pointer;
 }
 
 .condescension__list {
@@ -72,15 +72,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f5f4fa;
+  background-color: $background-color;
   border-radius: 4px;
 
   margin-bottom: 30px;
 }
 
 .condescension__title {
-  color: $main-color;
-
   font-family: "Roboto";
   font-style: normal;
 
@@ -91,17 +89,19 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  color: $main-color;
 }
 
 .condescention__text {
-  color: $second-color;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  color: $second-color;
 }
 
 .hero-work {
@@ -144,12 +144,12 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: $white-color;
   background: rgba(47, 48, 58, 0.8);
 }
 
 .hero-team {
-  background-color: #f5f4fa;
+  background-color: $background-color;
 }
 
 .team__title {
@@ -190,12 +190,12 @@
 }
 
 .employees__speciality {
-  color: $second-color;
-
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
+  color: $second-color;
 }
 
 .social-network {
@@ -229,7 +229,7 @@
   background-size: cover;
   background-position: center;
 
-  fill: #afb1b8;
+  fill: $grey-color;
 
   transition: $transition;
 }
@@ -259,14 +259,14 @@
 .client__link {
   min-width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
+  border: 1px solid $grey-color;
   border-radius: 4px;
 
   display: inline-flex;
   text-align: center;
   justify-content: center;
 
-  fill: #afb1b8;
+  fill: $grey-color;
 
   transition: $transition;
 }

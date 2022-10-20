@@ -223,7 +223,6 @@ address {
 }
 
 .hero-section__title {
-  color: #ffffff;
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -233,12 +232,10 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .hero-section__button {
-  color: #ffffff;
-  background: #2196f3;
-  cursor: pointer;
   min-width: 216px;
   border: none;
   border-radius: 4px;
@@ -249,6 +246,9 @@ address {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
 }
 
 .condescension__list {
@@ -280,7 +280,6 @@ address {
 }
 
 .condescension__title {
-  color: #212121;
   font-family: "Roboto";
   font-style: normal;
   margin-bottom: 10px;
@@ -289,16 +288,17 @@ address {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #212121;
 }
 
 .condescention__text {
-  color: #757575;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .hero-work {
@@ -387,11 +387,11 @@ address {
 }
 
 .employees__speciality {
-  color: #757575;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .social-network {
