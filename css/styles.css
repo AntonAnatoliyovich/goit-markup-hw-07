@@ -480,7 +480,7 @@ address {
   fill: var(--accent-color);
 } */
 
-.header-mail-icon-mail {
+/* .header-mail-icon-mail {
   min-width: 16px;
   min-height: 12px;
   background-repeat: no-repeat;
@@ -488,14 +488,14 @@ address {
   margin-right: 10px;
 
   transition: var(--transition);
-}
+} */
 
-.header-mail-icon-mail:hover,
+/* .header-mail-icon-mail:hover,
 .header-mail-icon-mail:focus {
   fill: var(--accent-color);
-}
+} */
 
-.header-tel {
+/* .header-tel {
   color: var(--second-color);
   fill: var(--second-color);
 
@@ -507,15 +507,15 @@ address {
   letter-spacing: 0.02em;
 
   transition: var(--transition);
-}
+} */
 
-.header-tel:hover,
+/* .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-}
+} */
 
-.header-mail-icon-phone {
+/* .header-mail-icon-phone {
   width: 16px;
   height: 12px;
   background-repeat: no-repeat;
@@ -523,12 +523,12 @@ address {
   margin-right: 10px;
 
   transition: var(--transition);
-}
+} */
 
-.header-mail-icon-phone:hover,
+/* .header-mail-icon-phone:hover,
 .header-mail-icon-phone:focus {
   fill: var(--accent-color);
-}
+} */
 
 /* -------header------- */
 

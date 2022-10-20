@@ -67,3 +67,18 @@
   color: $accent-color;
   fill: $accent-color;
 }
+
+.header__icon {
+    min-width: 16px;
+    min-height: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+  
+    transition: $transition;
+}
+
+.header__icon:hover,
+.header__icon:focus {
+  fill: $accent-color;
+}
