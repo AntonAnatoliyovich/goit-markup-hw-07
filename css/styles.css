@@ -992,7 +992,7 @@ ol {
 
 /* -------Form (footer)------- */
 
-.form-title {
+/* .form-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -1005,21 +1005,21 @@ ol {
   margin-bottom: 20px;
 
   color: #ffffff;
-}
+} */
 
-.form-div {
+/* .form-div {
   margin-left: 93px;
   align-items: baseline;
-}
+} */
 
-.form-div1 {
+/* .form-div1 {
   display: flex;
-}
+} */
 
-.form-lable {
-}
+/* .form-lable {
+} */
 
-.footer-form-input {
+/* .footer-form-input {
   width: 358px;
   font-family: "Roboto";
   font-style: normal;
@@ -1039,9 +1039,9 @@ ol {
 
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
-}
+} */
 
-.form-button {
+/* .form-button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -1066,7 +1066,7 @@ ol {
   color: #ffffff;
   background-color: var(--accent-color);
   fill: #ffffff;
-}
+} */
 
 /* -------PORTFOLIO.HTML------- */
 
