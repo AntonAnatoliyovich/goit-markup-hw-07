@@ -431,52 +431,52 @@
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
+      <div class="modal-window">
         <p></p>
-        <button class="backdrop-button" data-modal-close>
-          <svg class="backdrop-icon-close" width="18" height="18">
+        <button class="modal-window__button-close" data-modal-close>
+          <svg class="modal-window__icon-close" width="18" height="18">
             <use href="./image/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
-        <form class="form">
-          <h2 class="backdrop-form-title">Залиште свої дані, ми вам передзвонимо</h2>
-            <label class="backdrop-form-label">Ім'я
-              <span class="span"></span>
-              <span class="backdrop-form-label-span">
-                <input class="backdrop-form-input" type="text" name="name" required placeholder=" ">
-                <svg class="backdrop-form-icon" width="18" height="18">
+        <form class="modal-form">
+          <h2 class="modal-form__title">Залиште свої дані, ми вам передзвонимо</h2>
+            <label class="count">Ім'я
+              <span class="count__span"></span>
+              <span class="count__cell">
+                <input class="count__input" type="text" name="name" required placeholder=" ">
+                <svg class="count__icon" width="18" height="18">
                   <use href="./image/symbol-defs.svg#icon-form-person"></use>
                 </svg>
               </span>
             </label>
-            <label class="backdrop-form-label">Телефон
-              <span class="span"></span>
-              <span class="backdrop-form-label-span">
-                <input class="backdrop-form-input" type="tel" name="tel" required placeholder=" ">
-                <svg class="backdrop-form-icon" width="18" height="18">
+            <label class="count">Телефон
+              <span class="count__span"></span>
+              <span class="count__cell">
+                <input class="count__input" type="tel" name="tel" required placeholder=" ">
+                <svg class="count__icon" width="18" height="18">
                   <use href="./image/symbol-defs.svg#icon-form-phone"></use>
                 </svg>
               </span>
             </label>
-            <label class="backdrop-form-label">Пошта
-              <span class="span"></span>
-              <span class="backdrop-form-label-span">
-                <input class="backdrop-form-input" type="email" name="email" required placeholder=" ">
-                <svg class="backdrop-form-icon" width="18" height="18">
+            <label class="count">Пошта
+              <span class="count__span"></span>
+              <span class="count__cell">
+                <input class="count__input" type="email" name="email" required placeholder=" ">
+                <svg class="count__icon" width="18" height="18">
                   <use href="./image/symbol-defs.svg#icon-form-email"></use>
                 </svg>
               </span>
             </label>
-            <label class="backdrop-form-label">Коментар
-              <span class="span"></span>
-              <textarea class="backdrop-form-textarea" name="comment" rows="7" placeholder="Введіть текст"></textarea>
+            <label class="count-comment">Коментар
+              <span class="count-comment__span"></span>
+              <textarea class="count-comment__textarea" name="comment" rows="7" placeholder="Введіть текст"></textarea>
             </label>
-          <label class="backdrop-form-label-checkbox">
-            <input class="backdrop-form-input-checkbox" type="checkbox" name="policy" required placeholder=" ">
-            <span class="backdrop-form-span"></span>
-            Погоджуюся з розсилкою та приймаю <a class="backdrop-form-link" href="">Умови договору</a>
-          </label>
-          <button class="backdrop-form-button" type="submit">Відправити</button>
+            <label class="count-checkbox">
+              <input class="count-checkbox__input" type="checkbox" name="policy" required placeholder=" ">
+              <span class="count-checkbox__span"></span>
+              Погоджуюся з розсилкою та приймаю <a class="count-checkbox__link" href="">Умови договору</a>
+            </label>
+          <button class="count-checkbox__button" type="submit">Відправити</button>
         </form>
       </div>
     </div>
