@@ -88,6 +88,14 @@ address {
   clip: rect(0 0 0 0);
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
 .header {
   border: 1px solid #ececec;
 }
@@ -301,7 +309,7 @@ address {
   color: #212121;
 }
 
-.condescention__text {
+.condescension__text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
