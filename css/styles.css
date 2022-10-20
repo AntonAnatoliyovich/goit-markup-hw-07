@@ -1072,35 +1072,35 @@ ol {
 
 /* -------main------- */
 
-.main {
+/* .main {
 }
 
 .main-section {
-}
+} */
 
-.main-list {
+/* .main-list {
   margin-bottom: 50px;
   display: flex;
   gap: 8px;
   justify-content: center;
-}
+} */
 
-.main-item {
-}
+/* .main-item {
+} */
 
-.main-button {
+/* .main-button {
   transition: var(--transition);
-}
+} */
 
-.main-button:hover,
+/* .main-button:hover,
 .main-button:focus {
   color: var(--white-color);
   background: #2196f3;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
-.main-button {
+/* .main-button {
   color: #212121;
   background: #f5f4fa;
   cursor: pointer;
@@ -1117,31 +1117,31 @@ ol {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-}
+} */
 
-.main-list-second {
+/* .main-list-second {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 30px;
-}
+} */
 
-.main-list-second-work {
+/* .main-list-second-work {
   max-width: 370px;
   max-height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
 
   transition: var(--transition);
-}
+} */
 
-.main-list-second-work:hover,
+/* .main-list-second-work:hover,
 .main-list-second-work:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-}
+} */
 
-.main-item-second {
+/* .main-item-second {
   position: relative;
   overflow: hidden;
 }
@@ -1149,9 +1149,9 @@ ol {
 .main-overlay:hover .text-overlay,
 .main-overlay:focus .text-overlay {
   transform: translateY(0);
-}
+} */
 
-.text-overlay {
+/* .text-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1171,22 +1171,22 @@ ol {
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--white-color);
   transition: var(--transition);
-}
+} */
 
-.main-works {
+/* .main-works {
   padding: 20px 24px;
-}
+} */
 
-.main-title {
+/* .main-title {
   color: var(--main-color);
 
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-}
+} */
 
-.main-text {
+/* .main-text {
   color: var(--second-color);
 
   margin-top: 4px;
@@ -1194,6 +1194,6 @@ ol {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-}
+} */
 
 /* -------main------- */
