@@ -829,23 +829,23 @@ ol {
 
 /* -------footer------- */
 
-.footer {
+/* .footer {
   background-color: #2f303a;
 
   padding-top: 60px;
   padding-bottom: 60px;
-}
+} */
 
 .footer-container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-logo {
+/* .footer-logo {
 }
 
 .footer-web {
-}
+} */
 
 .footer-studio {
   color: var(--white-color);
@@ -923,8 +923,8 @@ ol {
   color: var(--accent-color);
 }
 
-.footer-div1 {
-}
+/* .footer-div1 {
+} */
 
 .footer-div2 {
   min-width: 206px;

@@ -203,6 +203,16 @@ address {
   letter-spacing: 0.03em;
 }
 
+.logo__studio--inverce {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
 .hero {
   position: relative;
   background-color: #2f303a;
@@ -483,4 +493,10 @@ address {
 .client__link:focus {
   fill: #2196f3;
   border-color: #2196f3;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
 }/*# sourceMappingURL=main.css.map */
