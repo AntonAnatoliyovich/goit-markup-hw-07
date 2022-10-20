@@ -21,7 +21,7 @@
   }
 
   .hero-section {
-    text-align: center;
+   text-align: center;
   }
 
   .hero-section__title {
@@ -38,3 +38,68 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
+
+  .hero-section__button {
+    color: var(--white-color);
+    background: #2196f3;
+    cursor: pointer;
+  
+    min-width: 216px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+  }
+
+  .hero-condescension {
+  }
+
+  .condescension__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  .condescension__item {
+    width: calc((100% - 90px) / 4);
+  }
+
+  .condescension__icon {
+    max-width: 270px;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+  
+    margin-bottom: 30px;
+  }
+
+  .condescension__title {
+    color: var(--main-color);
+  
+    margin-bottom: 10px;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .condescention__text {
+    color: var(--second-color);
+  
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    max-width: 270px;
+  }
+
