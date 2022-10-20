@@ -311,15 +311,15 @@ address {
   color: #757575;
 }
 
-.hero-work {
+.hero-task {
   padding-bottom: 81px;
 }
 
-.work__title {
+.task__title {
   margin: 0 auto;
 }
 
-.work__list {
+.task__list {
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -327,16 +327,16 @@ address {
   gap: 30px;
 }
 
-.work__item {
+.task__item {
   width: calc((100% - 60px) / 3);
   position: relative;
 }
 
-.work__image {
+.task__image {
   display: block;
 }
 
-.work__text {
+.task__text {
   position: absolute;
   width: 370px;
   height: 70px;
@@ -1040,6 +1040,8 @@ address {
 }
 
 .work__info {
+  max-width: 370px;
+  max-height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1062,11 +1064,6 @@ address {
 .work__info:focus .work__label {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-}
-
-.work__item {
-  min-width: 370px;
-  max-height: 404px;
 }
 
 .work__label {

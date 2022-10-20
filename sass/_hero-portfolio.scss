@@ -43,6 +43,8 @@
 }
 
 .work__info {
+  max-width: 370px;
+  max-height: 404px;
   background: $white-color;
   border: 1px solid #eeeeee;
 
@@ -64,11 +66,6 @@
 .work__info:hover .work__label,
 .work__info:focus .work__label {
   transform: translateY(0);
-}
-
-.work__item {
-    min-width: 370px;
-    max-height: 404px;
 }
 
 .work__label {
@@ -94,7 +91,7 @@
 }
 
 .work__div {
-    padding: 20px 24px;
+  padding: 20px 24px;
 }
 
 .work__title {
