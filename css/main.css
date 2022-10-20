@@ -184,7 +184,7 @@ address {
 }
 
 .logo__web {
-  color: var(--accent-color);
+  color: #2196f3;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
