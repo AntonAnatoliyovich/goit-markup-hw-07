@@ -4,3 +4,67 @@
 
     background-color: $background-color-footer;
   }
+
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .address {
+    margin-top: 20px;
+    max-width: 231px;
+  }
+
+  .find__map {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    margin-bottom: 9px;
+  
+    transition:  $transition;
+  
+    color: $white-color;
+  }
+
+  .find__map:hover,
+  .find__map:focus {
+  color: $accent-color;
+}
+
+.contact__mail {
+    display: block;
+    margin-bottom: 9px;
+  
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    transition: $transition;
+  
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .contact__mail:hover,
+  .contact__mail:focus {
+  color: $accent-color;
+}
+
+.contact__tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    transition: $transition;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .contact__tel:hover,
+  .contact__tel:focus {
+  color: $accent-color;
+}
