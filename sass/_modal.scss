@@ -1,0 +1,93 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    min-width: 100%;
+    min-height: 100%;
+  
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+  
+    transition: opacity $transition;
+  }
+
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+
+  .modal-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+  
+    width: 528px;
+    height: 581px;
+  
+    padding: 40px;
+  
+    background-color: $white-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  
+    transition: transform $transition;
+  }
+
+  .modal-window__button-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+  
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+  
+    margin-top: 8px;
+    margin-right: 8px;
+  
+    background-color: $white-color;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  
+    transition: $transition;
+  }
+  
+  .modal-window__button-close:hover,
+  .modal-window__button-close:focus {
+  fill: $accent-color;
+}
+
+.modal-window__icon-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-form {
+    max-width: 528px;
+    max-height: 581px;
+    outline: 1px solid tomato;
+  }
+
+  .modal-form__title {
+    margin-bottom: 12px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+  
+    color: $main-color;
+  }
+
+  
