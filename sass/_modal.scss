@@ -113,19 +113,19 @@
   margin-bottom: 10px;
 }
 
-.count:focus-within > .count__icon {
+.count__cell:focus-within > .count__icon {
   fill: $accent-color;
 }
 
-.count:focus-within > .count__input {
+.count__cell:focus-within > .count__input {
   border-color: $accent-color;
   outline: none;
 }
 
-//   .count:focus-within > .modal-form__textarea {
-//     border-color: $accent-color;
-//     outline: none;
-//   }
+.count-comment:focus-within > .count-comment__textarea {
+  border-color: $accent-color;
+  outline: none;
+}
 
 .count__input {
   box-sizing: border-box;

@@ -832,11 +832,16 @@ address {
   margin-bottom: 10px;
 }
 
-.count:focus-within > .count__icon {
+.count__cell:focus-within > .count__icon {
   fill: #2196f3;
 }
 
-.count:focus-within > .count__input {
+.count__cell:focus-within > .count__input {
+  border-color: #2196f3;
+  outline: none;
+}
+
+.count-comment:focus-within > .count-comment__textarea {
   border-color: #2196f3;
   outline: none;
 }
