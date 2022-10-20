@@ -1,4 +1,4 @@
-.header {
+  .header {
     border: 1px solid #ececec;
   }
 
@@ -17,4 +17,27 @@
     padding-top: 24px;
     padding-bottom: 25px;
     margin-right: 93px;
+  }
+
+  .header__list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .header__item {
+    
+  }
+
+  .header__link {
+    color: var(--main-color);
+  
+    position: relative;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    transition: var(--transition);
   }
