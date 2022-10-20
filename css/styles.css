@@ -783,25 +783,25 @@ ol {
   height: 44px;
 } */
 
-.hero-item-icon {
-}
+/* .hero-item-icon {
+} */
 
-.hero-section-fifth {
-}
+/* .hero-section-fifth {
+} */
 
-.hero-title-fifth {
+/* .hero-title-fifth {
   margin-bottom: 50px;
-}
+} */
 
-.hero-list-fifth-client {
+/* .hero-list-fifth-client {
   display: flex;
   text-align: center;
   justify-content: center;
 
   gap: 30px;
-}
+} */
 
-.link-client {
+/* .link-client {
   min-width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -814,13 +814,13 @@ ol {
   fill: #afb1b8;
 
   transition: var(--transition);
-}
+} */
 
-.link-client:hover,
+/* .link-client:hover,
 .link-client:focus {
   fill: #2196f3;
   border-color: #2196f3;
-}
+} */
 
 .client-logo {
 }

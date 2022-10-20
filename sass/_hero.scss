@@ -57,9 +57,6 @@
   letter-spacing: 0.06em;
 }
 
-.hero-condescension {
-}
-
 .condescension__list {
   display: flex;
   gap: 30px;
@@ -111,9 +108,6 @@
   padding-bottom: 81px;
 }
 
-.work {
-}
-
 .work__title {
   margin: 0 auto;
 }
@@ -156,9 +150,6 @@
 
 .hero-team {
   background-color: #f5f4fa;
-}
-
-.team {
 }
 
 .team__title {
@@ -252,4 +243,37 @@
 
 .social-network__logo {
   height: 44px;
+}
+
+.client__title {
+  margin-bottom: 50px;
+}
+
+.client__list {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.client__link {
+  min-width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+
+  fill: #afb1b8;
+
+  transition: $transition;
+}
+
+.client__link:hover,
+.client__link:focus {
+  fill: $accent-color;
+  border-color: $accent-color;
 }
