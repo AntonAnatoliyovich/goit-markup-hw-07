@@ -445,22 +445,22 @@ address {
   transition: var(--transition);
 } */
 
-.header-link:hover,
+/* .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
-}
+} */
 
-.header-list-second {
+/* .header-list-second {
   display: flex;
   gap: 50px;
-}
+} */
 
-.header-item-second {
+/* .header-item-second {
   display: block;
   height: 16px;
-}
+} */
 
-.header-mail {
+/* .header-mail {
   color: var(--second-color);
   fill: var(--second-color);
 
@@ -472,13 +472,13 @@ address {
   letter-spacing: 0.02em;
 
   transition: var(--transition);
-}
+} */
 
-.header-mail:hover,
+/* .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-}
+} */
 
 .header-mail-icon-mail {
   min-width: 16px;
