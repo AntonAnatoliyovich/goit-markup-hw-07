@@ -534,7 +534,7 @@ ol {
 
 /* -------main------- */
 
-.hero {
+/* .hero {
   position: relative;
 
   background-color: #2f303a;
@@ -554,13 +554,13 @@ ol {
   background-position: center;
 
   padding: 200px 0px;
-}
+} */
 
-.hero-section {
+/* .hero-section {
   text-align: center;
-}
+} */
 
-.hero-title {
+/* .hero-title {
   color: var(--white-color);
 
   max-width: 696px;
@@ -573,7 +573,7 @@ ol {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+} */
 
 .hero-button {
   color: var(--white-color);
