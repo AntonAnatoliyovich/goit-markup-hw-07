@@ -60,11 +60,11 @@ address {
   text-decoration: none;
 }
 
-.current {
+.header__link--current {
   color: $accent-color;
 }
 
-.current::after {
+.header__link--current::after {
   content: "";
 
   position: absolute;

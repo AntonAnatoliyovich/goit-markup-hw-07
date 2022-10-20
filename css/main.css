@@ -58,11 +58,11 @@ address {
   text-decoration: none;
 }
 
-.current {
+.header__link--current {
   color: #2196f3;
 }
 
-.current::after {
+.header__link--current::after {
   content: "";
   position: absolute;
   left: 0;
