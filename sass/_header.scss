@@ -26,8 +26,8 @@
 }
 
 .header__item {
-    display: block;
-    height: 16px;
+  display: block;
+  height: 16px;
 }
 
 .header__link {
@@ -49,17 +49,17 @@
 }
 
 .header__contact {
-    color: $second-color;
-    fill: $second-color;
-  
-    display: block;
-  
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-  
-    transition: $transition;
+  color: $second-color;
+  fill: $second-color;
+
+  display: block;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition: $transition;
 }
 
 .header__contact:hover,
@@ -69,13 +69,13 @@
 }
 
 .header__icon {
-    min-width: 16px;
-    min-height: 12px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 10px;
-  
-    transition: $transition;
+  min-width: 16px;
+  min-height: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+
+  transition: $transition;
 }
 
 .header__icon:hover,
