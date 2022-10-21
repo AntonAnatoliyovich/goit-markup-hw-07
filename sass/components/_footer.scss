@@ -15,58 +15,62 @@
   max-width: 231px;
 }
 
-.find__map {
-  display: block;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+.find {
+  &__map {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    margin-bottom: 9px;
+  
+    transition: $transition;
+  
+    color: $white-color;
 
-  margin-bottom: 9px;
-
-  transition: $transition;
-
-  color: $white-color;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
 }
 
-.find__map:hover,
-.find__map:focus {
-  color: $accent-color;
-}
+.contact {
+  &__mail {
+    display: block;
+    margin-bottom: 9px;
+  
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    transition: $transition;
+  
+    color: rgba(255, 255, 255, 0.6);
 
-.contact__mail {
-  display: block;
-  margin-bottom: 9px;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
 
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  &__tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    transition: $transition;
+  
+    color: rgba(255, 255, 255, 0.6);
 
-  transition: $transition;
-
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.contact__mail:hover,
-.contact__mail:focus {
-  color: $accent-color;
-}
-
-.contact__tel {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
-  transition: $transition;
-
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.contact__tel:hover,
-.contact__tel:focus {
-  color: $accent-color;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
 }
 
 .community {
@@ -78,55 +82,55 @@
   text-align: left;
   justify-content: center;
   align-items: baseline;
-}
 
-.community__title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: $white-color;
-}
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+  }
 
-.community__list {
-  display: inline-flex;
-  text-align: center;
-  justify-content: center;
-  align-items: baseline;
-  gap: 10px;
-  margin-top: 20px;
-}
+  &__list {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 20px;
+  }
 
-.community__item {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.1);
-}
+  &__item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 
-.community__icon {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+  &__icon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  
+    fill: $white-color;
+  
+    transition: $transition;
 
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+    }
+  }
 
-  fill: $white-color;
-
-  transition: $transition;
-}
-
-.community__icon:hover,
-.community__icon:focus {
-  background-color: $accent-color;
-}
-
-.community__logo {
-  height: 44px;
+  &__logo {
+    height: 44px;
+  }
 }
