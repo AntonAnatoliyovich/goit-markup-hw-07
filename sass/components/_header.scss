@@ -23,6 +23,11 @@
     letter-spacing: 0.02em;
   
     transition: $transition;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
   }
 
   &__container {
@@ -43,6 +48,12 @@
     letter-spacing: 0.02em;
   
     transition: $transition;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      fill: $accent-color;
+    }
   }
 
   &__icon {
@@ -53,23 +64,12 @@
     margin-right: 10px;
   
     transition: $transition;
+
+    &:hover,
+    &:focus {
+      fill: $accent-color;
+    }
   }
-}
-
-.header__link:hover,
-.header__link:focus {
-  color: $accent-color;
-}
-
-.header__contact:hover,
-.header__contact:focus {
-  color: $accent-color;
-  fill: $accent-color;
-}
-
-.header__icon:hover,
-.header__icon:focus {
-  fill: $accent-color;
 }
 
 .nav {
